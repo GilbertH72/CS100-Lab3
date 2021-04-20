@@ -47,4 +47,5 @@ TEST(SubTest, SubStringifyAddNonZero) {
     EXPECT_EQ(test->stringify(), "6 + 8 - 10");
 }
 
+
 #endif

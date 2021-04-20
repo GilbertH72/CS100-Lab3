@@ -24,5 +24,6 @@ private:
    Base* op1;
    Base* op2;
 };
+
 #endif //__SUB_HPP__
 
