@@ -7,7 +7,7 @@
 
 TEST(RandTest, RandEvaluateNonZero) {
     Rand* test = new Rand();
-    EXPECT_EQ(test->evaluate(), 83);
+    EXPECT_LT(test->evaluate(), 100);
 }
 
 TEST(RandTest, RandStringifyNonZero) {
@@ -15,4 +15,4 @@ TEST(RandTest, RandStringifyNonZero) {
     EXPECT_EQ(test->stringify(), "86");
 }
 
-#endif //__OP_TEST_HPP__
+#endif
